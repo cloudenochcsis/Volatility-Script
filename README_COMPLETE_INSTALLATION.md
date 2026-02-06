@@ -288,11 +288,11 @@ This script:
 ### Get it from GitHub (Kali)
 
 ```bash
-# Clone the repo (replace with your GitHub URL)
-git clone https://github.com/your-org/your-repo.git
+# Clone the repo
+git clone git@github.com:cloudenochcsis/Volatility-Script.git
 
 # Enter the folder
-cd your-repo
+cd Volatility-Script
 
 # Make the script executable
 chmod +x install_volatility_complete.sh
