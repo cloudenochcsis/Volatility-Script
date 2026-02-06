@@ -1,5 +1,57 @@
 #  VOLATILITY 2.6.1 - ONE-COMMAND INSTALLATION
 
+##  Ready to Install?
+
+### Get it from GitHub (Kali)
+
+```bash
+# Clone the repo (SSH)
+git clone git@github.com:cloudenochcsis/Volatility-Script.git
+
+# Or clone via HTTPS if you do not have SSH keys set up
+git clone https://github.com/cloudenochcsis/Volatility-Script.git
+
+# Enter the folder
+cd Volatility-Script
+
+# Make the script executable
+chmod +x install_volatility_complete.sh
+```
+
+### No Git? Download the ZIP instead
+
+```bash
+# Download the ZIP from GitHub
+wget -O Volatility-Script.zip https://github.com/cloudenochcsis/Volatility-Script/archive/refs/heads/main.zip
+
+# Unzip it
+unzip Volatility-Script.zip
+
+# Enter the folder
+cd Volatility-Script-main
+
+# Make the script executable
+chmod +x install_volatility_complete.sh
+```
+
+### Run the installer
+
+```bash
+sudo bash install_volatility_complete.sh
+```
+
+Sit back and watch it work! The script will:
+- Show you what it's doing at each step
+- Back up any existing installation
+- Install everything needed
+- Fix all compatibility issues
+- Test everything
+- Show you how to use it
+
+**Total time: ~5-10 minutes** 
+
+---
+
 ## The Complete Solution
 
 This is the **all-in-one** script you need. It does everything:
@@ -280,58 +332,6 @@ This script:
 2. **Run on fresh Kali**: Works on brand new Kali installations
 3. **Multiple machines**: Use it on all your VMs
 4. **Share with classmates**: Help everyone get set up fast
-
----
-
-##  Ready to Install?
-
-### Get it from GitHub (Kali)
-
-```bash
-# Clone the repo (SSH)
-git clone git@github.com:cloudenochcsis/Volatility-Script.git
-
-# Or clone via HTTPS if you do not have SSH keys set up
-git clone https://github.com/cloudenochcsis/Volatility-Script.git
-
-# Enter the folder
-cd Volatility-Script
-
-# Make the script executable
-chmod +x install_volatility_complete.sh
-```
-
-### No Git? Download the ZIP instead
-
-```bash
-# Download the ZIP from GitHub
-wget -O Volatility-Script.zip https://github.com/cloudenochcsis/Volatility-Script/archive/refs/heads/main.zip
-
-# Unzip it
-unzip Volatility-Script.zip
-
-# Enter the folder
-cd Volatility-Script-main
-
-# Make the script executable
-chmod +x install_volatility_complete.sh
-```
-
-### Run the installer
-
-```bash
-sudo bash install_volatility_complete.sh
-```
-
-Sit back and watch it work! The script will:
-- Show you what it's doing at each step
-- Back up any existing installation
-- Install everything needed
-- Fix all compatibility issues
-- Test everything
-- Show you how to use it
-
-**Total time: ~5-10 minutes** 
 
 ---
 
