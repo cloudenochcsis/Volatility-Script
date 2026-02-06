@@ -301,6 +301,22 @@ cd Volatility-Script
 chmod +x install_volatility_complete.sh
 ```
 
+### No Git? Download the ZIP instead
+
+```bash
+# Download the ZIP from GitHub
+wget -O Volatility-Script.zip https://github.com/cloudenochcsis/Volatility-Script/archive/refs/heads/main.zip
+
+# Unzip it
+unzip Volatility-Script.zip
+
+# Enter the folder
+cd Volatility-Script-main
+
+# Make the script executable
+chmod +x install_volatility_complete.sh
+```
+
 ### Run the installer
 
 ```bash
